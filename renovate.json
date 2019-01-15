@@ -4,7 +4,7 @@
 	"semanticPrefix": "build",
 	"commitMessage": "{{semanticPrefix}} update {{depName}} to version {{newVersion}}",
 	"separateMajorMinor": false,
-	"lockFileMaintenance": { "enabled": false },
+	"lockFileMaintenance": { "enabled": true },
 	"baseBranches": [
 	  "master",
 	  "7.2.x"
