@@ -4,9 +4,6 @@
 	"semanticPrefix": "build",
 	"commitMessage": "{{semanticPrefix}} update {{depName}} to version {{newVersion}}",
 	"separateMajorMinor": false,
-	"labels": [
-		"7.2.x - label"
-	],
 	"baseBranches": [
 	  "master",
 	  "7.2.x"
