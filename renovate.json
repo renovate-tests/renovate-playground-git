@@ -7,7 +7,7 @@
 	"lockFileMaintenance": {
 		"enabled": true,
 		"schedule": [
-			"every weekday",
+			"every weekday"
 		]
 	},
 	"baseBranches": [
