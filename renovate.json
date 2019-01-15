@@ -4,13 +4,6 @@
 	"semanticPrefix": "build",
 	"commitMessage": "{{semanticPrefix}} update {{depName}} to version {{newVersion}}",
 	"separateMajorMinor": false,
-	"lockFileMaintenance": {
-		"enabled": true,
-		"schedule": [
-			"every weekday"
-		]
-	},
-
 	"packageRules": [
 		{
 			"paths": [
