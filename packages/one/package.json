@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rxjs": "6.0.0"
+    "typescript": "2.0.0"
+  },
+  "renovate": {
+    "labels": [
+      "upgrade",
+      "bot"
+    ]
   }
 }
