@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@angular/cli": "git+https://github.com/angular/cli-builds.git#master"
+    "@angular/cli": "git+https://github.com/angular/cli-builds.git#7.2.x"
   }
 }
