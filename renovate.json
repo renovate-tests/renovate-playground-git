@@ -5,7 +5,7 @@
 	"commitMessage": "{{semanticPrefix}} update {{depName}} to version {{newVersion}}",
 	"separateMajorMinor": false,
 	"lockFileMaintenance": {
-		"enabled": true,
+		"enabled": false,
 		"schedule": [
 			"every weekday"
 		]
