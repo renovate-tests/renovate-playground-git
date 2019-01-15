@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add typescript@2.0.0
+
+PATH: 
+  C:\utils\cmder\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\alag\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\alag\AppData\Roaming\npm;C:\Users\alag\AppData\Local\Yarn\bin;C:\Program Files\Oracle\VirtualBox;C:\ProgramData\chocolatey\lib\msys2;C:\tools\msys64;C:/Program Files/Git/usr/bin;C:\Program Files\Heroku\bin;c:\bazel;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\utils\cmder\
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\git\renovate-playground-git\package.json: Unexpected token / in JSON at position 245
+      at JSON.parse (<anonymous>)
+      at C:\ProgramData\nvm\v10.10.0\node_modules\yarn\lib\cli.js:1631:59
+      at Generator.next (<anonymous>)
+      at step (C:\ProgramData\nvm\v10.10.0\node_modules\yarn\lib\cli.js:304:30)
+      at C:\ProgramData\nvm\v10.10.0\node_modules\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "renovate-playground-git",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "ISC",
+    "workspaces":{
+  
+    },
+    "dependencies": {
+  //    "@angular/cli": "git+https://github.com/angular/cli-builds.git#56859637e0c0bf3f030ffc65631fe47e783ac3ca"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  
