@@ -6,7 +6,7 @@
 	"separateMajorMinor": false,
 	"packageRules": [
 		{
-			"paths": ["packages/nested"],
+			"paths": ["packages/nested/package.json"],
 			"lockFileMaintenance": {
 				"enabled": true,
 				"schedule": [
