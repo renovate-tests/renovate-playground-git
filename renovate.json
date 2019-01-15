@@ -6,12 +6,14 @@
 	"separateMajorMinor": false,
 	"lockFileMaintenance": {
 		"enabled": true,
+		"gitFs": true,
 		"schedule": [
 			"every weekday"
 		]
 	},
 	"maintainYarnLock": {
 		"enabled": true,
+		"gitFs": true,
 		"schedule": [
 			"every weekday"
 		]
@@ -21,12 +23,14 @@
 			"paths": ["packages/nested/package.json"],
 			"maintainYarnLock": {
 				"enabled": true,
+				"gitFs": true,
 				"schedule": [
 					"every weekday"
 				]
 			},
 			"lockFileMaintenance": {
 				"enabled": true,
+				"gitFs": true,
 				"schedule": [
 					"every weekday"
 				]
