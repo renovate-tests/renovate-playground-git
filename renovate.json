@@ -1,0 +1,15 @@
+{
+	"pinVersions": false,
+	"semanticCommits": true,
+	"semanticPrefix": "build",
+	"commitMessage": "{{semanticPrefix}} update {{depName}} to version {{newVersion}}",
+	"separateMajorMinor": false,
+	"baseBranches": [
+	  "master",
+	  "7.2.x"
+	],
+	"packageFiles": [
+	  "package.json",
+	  "packages/**/package.json"
+	]
+  }
