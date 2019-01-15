@@ -8,6 +8,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@angular/cli": "git+https://github.com/angular/cli-builds.git#56859637e0c0bf3f030ffc65631fe47e783ac3ca"
+    "@angular/cli": "git+https://github.com/angular/cli-builds.git#master"
   }
 }
