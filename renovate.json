@@ -4,12 +4,17 @@
 	"semanticPrefix": "build",
 	"commitMessage": "{{semanticPrefix}} update {{depName}} to version {{newVersion}}",
 	"separateMajorMinor": false,
-	"lockFileMaintenance": {
-		"enabled": false,
-		"schedule": [
-			"every weekday"
-		]
-	},
+	"packageRules": [
+		{
+			"paths": ["packages/nested"],
+			"lockFileMaintenance": {
+				"enabled": true,
+				"schedule": [
+					"every weekday"
+				]
+			}
+		}
+	],
 	"baseBranches": [
 		"master",
 		"7.2.x"
