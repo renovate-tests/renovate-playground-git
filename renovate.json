@@ -10,9 +10,21 @@
 			"every weekday"
 		]
 	},
+	"maintainYarnLock": {
+		"enabled": true,
+		"schedule": [
+			"every weekday"
+		]
+	},
 	"packageRules": [
 		{
 			"paths": ["packages/nested/package.json"],
+			"maintainYarnLock": {
+				"enabled": true,
+				"schedule": [
+					"every weekday"
+				]
+			},
 			"lockFileMaintenance": {
 				"enabled": true,
 				"schedule": [
