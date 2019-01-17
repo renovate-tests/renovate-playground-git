@@ -18,7 +18,8 @@ Existing issues often contain information about workarounds, resolution, or prog
 
 ### Command (mark with an `x`)
 <!-- Can you pin-point the command or commands that are relevant for this feature request? -->
-<!-- ✍️edit: --> ```
+<!-- ✍️edit: -->
+```
 - [ ] new
 - [ ] build
 - [ ] serve

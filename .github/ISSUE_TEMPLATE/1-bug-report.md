@@ -16,7 +16,8 @@ Existing issues often contain information about workarounds, resolution, or prog
 
 ### Command (mark with an `x`)
 <!-- Can you pin-point the command or commands that are effected by this bug? -->
-<!-- ✍️edit: --> ```
+<!-- ✍️edit: -->
+```
 - [ ] new
 - [ ] build
 - [ ] serve
@@ -67,8 +68,6 @@ You can read more about issue submission guidelines here: https://github.com/ang
 
 
 ## 🌍 Your Environment
-
-**Angular Version:**
 <pre><code>
 <!-- run `ng version` and paste output below -->
 <!-- ✍️-->
